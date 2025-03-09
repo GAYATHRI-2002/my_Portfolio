@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">
+            <span>Gayathri</span> J Nair
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+
+        <button class="gradient-button">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hai it's <span>Gayathri</span></h1>
+            <h3>
+                I'm a <span>Python Full Stack Developer</span>
+            </h3>
+            <p>I earned my B.Tech in Computer Science and Engineering from College Of Engineering Chengannur (2024).
+                I enjoy building dynamic and user-friendly web applications.I'm always eager to learn, solve problems, and explore new technologies.
+            </p>
+            <div class="social-icons">
+                <a href="#" class="bx bxl-github">
+                </a>
+                <a href="#" class="bx bxl-linkedin-square">   
+                </a>
+                <a href="#" class="bx bxl-twitter">   
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        
+        <div class="home-image">
+            <img height="430px" width="870px" src="Gayathri.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Gayathri.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I am a Python Full Stack Developer with a strong foundation in Django,
+                React, JavaScript, HTML, and CSS. I have a passion for building
+                dynamic web applications and enjoy solving logical problems through
+                programming.I graduated with a B.Tech degree in Computer Science and Engineering from 
+                College of Engineering Chengannur in 2024.Currently i am doing an intership in python fullstack web developmnt at Luminar Technolab.
+                I have a keen interest in backend development, database management, and web application security.
+                Additionally, I have experience working with MySQL, Bootstrap, and REST APIs.
+                I am always eager to learn new technologies and improve my skills.
+                Beyond coding, I enjoy reading books, particularly thrillers and historical fiction, and I love exploring different cultures across India.
+                I am currently looking for opportunities where I can apply my technical skills, contribute to impactful projects, and grow as a developer.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">
+            Services
+        </h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-alt"></i>
+                    <h4>Frontend Development</h4>
+                    <p>
+                        Creating interactive and user-friendly interfaces with modern web technologies. I focus on
+                         clean UI/UX, performance optimization, and cross-browser compatibility.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-python"></i>
+                    <h4>Python Development</h4>
+                    <p>
+                        Developing powerful Python applications and 
+                        automation scripts for various use cases, including data processing and web development.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-server"></i>
+                    <h4>Backend Development</h4>
+                    <p>
+                        Expert in building secure and efficient backend systems using Python
+                         and Django. I work with REST APIs, database management, and authentication systems to ensure seamless application performance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+            <div class="project-cards">
+                <img src="project1.png" alt="">
+                <h3>Travel Experience Sharing Platform (Django Blog Project)</h3>
+                <p>A web-based platform where users can share their travel experiences through blog posts.
+                     The platform allows users to create accounts, write and categorize blogs, and 
+                     interact through comments. Admins can manage users, blogs, and comments. Implemented features include 
+                    authentication, profile management, blog filtering, and commenting functionality.
+                    <br>
+                    <span>Tech Stack: Django, Python, HTML, CSS, JavaScript, Bootstrap, MySQL</span>
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-cards">
+                <img src="project2.png" alt="">
+                <h3>Pageturner (E-commerce Website for Books)</h3>
+                <p>An online bookstore where users can browse, search, and purchase books.
+                     The platform includes user authentication, product categorization, and a smooth checkout process.
+                     The admin module allows managing books, orders, and users.
+                     <br>
+                    <span>Tech Stack: Django, Python, HTML, CSS, JavaScript, Bootstrap, MySQL</span>
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="contacts" id="contacts">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group2">
+                <textarea name="" id="" placeholder="Your message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="social-icons">
+            <a href="#" class="bx bxl-github">
+            </a>
+            <a href="#" class="bx bxl-linkedin-square">   
+            </a>
+            <a href="#" class="bx bxl-twitter">   
+            </a>
+        </div>
+        <ul class="list">
+
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contacts">Contact</a>
+            </li>
+
+        </ul>
+
+        <p class="copyright">
+            @ Gayathri J Nair | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
